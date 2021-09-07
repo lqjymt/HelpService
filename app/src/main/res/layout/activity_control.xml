@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_open_accessbility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/open_accessibility"
+        />
+    <Button
+        android:id="@+id/open_udp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="打开远程"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="go"
+ />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="cancelPraise"
+     />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_open_wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/open_wechat"
+  />
+    <TextView
+        android:id="@+id/touchX"
+        android:text="x:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/touchY"
+        android:text="y:"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
